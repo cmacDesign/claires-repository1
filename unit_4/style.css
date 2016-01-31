@@ -13,6 +13,14 @@ h1 {
 	font-size: "48px";
 }
 
+h2 {
+	font-family: 'Rokkitt', serif;
+	color: black;
+	text-align: center;
+	font-weight: "700";
+	font-size: "14px";
+}
+
 p {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
