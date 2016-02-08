@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Rokkitt:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-color: #ffffff;
+}
+
+h1 {
+	font-family: 'Rokkitt', serif;
+	color: black;
+	text-align: center;
+	font-weight: "700";
+	font-size: 45px;
+}
+
+h2 {
+	font-family: 'Rokkitt', serif;
+	color: black;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: "700";
+	font-size: 24px;
+}
+
+p {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "400";
+	font-size: 14px;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "400";
+}
+
+ol {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "400";
+}
+
+li {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "400";
+}
+img {
+	color: black;
+}
+
+.a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: "400";
+	text-decoration: none;
+}
