@@ -1,92 +1,106 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-.wrapper {
-	background: #e5e5cc;
-	border: 1px black solid;
-	padding: 20px;
-    width: 800px;
-    margin: 0 auto;
-}
-.black-bar {
-	background: #000000;
-	padding: 20px;
-}
-.CM-logo {
-	padding: 20px;
-	float: left;
-}
-.awards {
-	background-color: #FF3399;
-	border: 20px;
-	padding: 10px 10px;
-	text-align: inline;	
-}
-header {
-	background-color: #FFED74;
-	padding: 0px;
-	width: 800px;
-}
-nav {
-	background-color: #E8C66A;
-	border: 20px;
-	padding: 10px 10px;
-	text-align: inline;
-}
-section {
-	background-color: #FFE2B8;
-	border: 0px;
-	padding: 40px;
-}
-footer {
-	background-color: #FF957E;
-	padding: 20px;
-	}
 
 body {
 	background-color: #ffffff;
 }
-h1 {
-	font-family: 'Oswald', sans-serif;
-	color: black;
-	text-align: center;
-	font-weight: "400";
+
+h1, h2 {
+	font-family: 'Montserrat', serif;
 	font-size: 45px;
-}
-h2 {
-	font-family: 'Oswald', sans-serif;
 	color: black;
-	text-transform: capitalize;
 	text-align: center;
 	font-weight: "700";
-	font-size: 24px;
 }
+
+h2 { 
+	font-size: 24px;
+	padding-bottom: 10px
+ }
+
 p {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: "400";
 	font-size: 14px;
+	font-weight: "400";
 }
-ul {
-	text-align: inline;
-	list-style-type: none;
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-}
-ol {
-	color: black;
-	font-family: 'Open Sans', sans-serif;
-}
+
 li {
 	color: black;
+	display: inline;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
+	padding: 20px;
 }
-img {
-	color: black;
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
-.a {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: "400";
-	text-decoration: none;
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#about {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+ 	padding: 20px;
+}
+ 
+ #left {
+ 	background-color: violet;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	float: left;
+ 	width: 45%;
+ }
+
+ #right {
+ 	background-color: pink;
+ 	border: 1px black solid;
+ 	padding: 20px;
+ 	float: right;
+ 	width: 45%;
+ }
+ 
+ .clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.name {
+	padding: 2%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
