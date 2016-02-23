@@ -22,6 +22,7 @@ p {
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	line-height: 1.5;
 	font-weight: "400";
 }
 
@@ -57,31 +58,26 @@ section {
 	padding: 20px;
 }
 
-#two_column {
+#thumbnails {
 	background-color: #FFB7CF;
 	border: 1px black solid;
  	padding: 20px;
 }
  
- #left {
+ #row {
  	background-color: violet;
  	border: 1px black solid;
- 	padding: 20px;
+ 	padding: 30px;
  	float: left;
- 	width: 45%;
- }
-
- #right {
- 	background-color: pink;
- 	border: 1px black solid;
- 	padding: 20px;
- 	float: right;
- 	width: 45%;
- }
+}
 
  .photo {
- 	background: assets/hero-top-photo1.jpg;
- }
+ 	background-image: no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
  
  .clearfix:after {
 	visibility: hidden;
